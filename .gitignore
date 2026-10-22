@@ -1,0 +1,34 @@
+# ---- Segredos / ambiente local ----
+wp-config.php
+local-xdebuginfo.php
+.htaccess
+*.log
+.DS_Store
+Thumbs.db
+
+# ---- Núcleo do WordPress (reinstalável; não versionar) ----
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# ---- Caches, backups e temporários ----
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/duplicator-backups/
+wp-content/uploads/elementor/css/
+wp-content/uploads/unlimited_elements_cache/
+wp-content/uploads/wpcode/
+wp-content/languages/
+
+# ---- Plugins pagos (licença) — repositório é PÚBLICO; não publicar ----
+wp-content/plugins/elementor-pro/
+wp-content/plugins/jet-*/
+wp-content/plugins/crocoblock-activator/
+wp-content/plugins/unlimited-elements-for-elementor-premium/
+wp-content/plugins/duplicator-pro/
+wp-content/plugins/wpcode-premium/

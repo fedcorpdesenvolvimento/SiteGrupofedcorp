@@ -1,0 +1,33 @@
+DEPLOY – Home com menu lateral + carrossel de seguradoras
+=========================================================
+
+O que vai para o servidor (R4C, grupofedcorp.com.br):
+
+1) ARQUIVOS (via SFTP/FTP/cPanel ou scp), copiando a pasta wp-content/ deste
+   pacote por cima da do site:
+     wp-content/mu-plugins/fedcorp-menu-lateral.php      -> menu lateral de atalhos
+     wp-content/mu-plugins/fedcorp-parceiros.php         -> shortcode [fedcorp_parceiros]
+     wp-content/mu-plugins/fedcorp-parceiros/logos/*.webp (15 logos)
+   Se a pasta wp-content/mu-plugins não existir no servidor, crie-a.
+   mu-plugins carregam sozinhos: não precisa ativar nada no painel.
+   Só com isso o MENU LATERAL já aparece em todas as páginas.
+
+2) PÁGINA HOME (ID 26 no servidor, igual ao local) – escolha UMA opção:
+
+   Opção A – pelo painel (sem acesso SSH):
+     Páginas > Home > Editar com Elementor. No final da página adicione um
+     Container e dentro dele o widget "Shortcode" com:  [fedcorp_parceiros]
+     Clique em Atualizar.
+
+   Opção B – importar o template:
+     Templates > Templates salvos > Importar templates > home-elementor-template.json
+     Depois abra a Home no Elementor, apague o conteúdo e insira o template importado
+     (ícone de pasta > Meus templates). Atualizar.
+
+   Opção C – via WP-CLI (SSH no servidor, dentro da pasta do WordPress):
+     wp post meta update 26 _elementor_data "$(cat home26_elementor_data.json)"
+     wp elementor flush-css
+     wp cache flush
+
+3) Depois: limpe o cache do site/hospedagem (LiteSpeed/WP Rocket/CDN, se houver)
+   e abra https://grupofedcorp.com.br/ em aba anônima.

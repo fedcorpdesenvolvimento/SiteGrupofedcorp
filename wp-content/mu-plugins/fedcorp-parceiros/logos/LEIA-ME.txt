@@ -1,0 +1,31 @@
+LOGOS DAS SEGURADORAS PARCEIRAS
+================================
+
+Coloque os logos nesta pasta, com EXATAMENTE estes nomes (tudo minúsculo, com hífen).
+Formatos aceitos: .svg (melhor), .webp ou .png (fundo transparente).
+Tamanho ideal: horizontal, cerca de 300 x 120 px.
+
+  porto-seguro      -> Porto Seguro
+  allianz           -> Allianz Brasil
+  bradesco-seguros  -> Bradesco Seguros
+  pottencial        -> Pottencial Seguradora
+  hdi               -> HDI Seguros
+  chubb             -> Chubb Seguros
+  axa               -> AXA Seguros
+  brasilcap         -> Brasilcap
+  tokio-marine      -> Tokio Marine
+  too-seguros       -> Too Seguros
+  suhai             -> Suhai Seguradora
+  amil              -> Amil
+  yelum             -> Yelum Seguros
+  azul-seguros      -> Azul Seguros
+  mapfre            -> Mapfre Seguros
+
+Exemplos: porto-seguro.svg, allianz.png, mapfre.webp
+
+Enquanto um logo não estiver aqui, o site mostra o NOME da seguradora num cartão.
+
+Onde conseguir os logos oficiais:
+  - Portal do corretor de cada seguradora (área de marketing / materiais de divulgação)
+  - Contato comercial/executivo de cada seguradora
+  - Página de imprensa ("sala de imprensa" / "brand kit") do site da seguradora
