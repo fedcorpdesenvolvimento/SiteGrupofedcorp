@@ -30,7 +30,7 @@ Legenda: ✅ feito no site · 🔶 feito, depende de preenchimento/decisão da e
 - ✅ Comentários e pingbacks desligados; IP de comentários não é gravado; registro público de usuários bloqueado.
 - ✅ API REST não lista usuários para visitantes; `?author=N` redireciona; XML-RPC desligado; versão do WordPress oculta.
 - ✅ Consentimento e solicitações guardam hash do IP, não o IP.
-- 🔶 O "Fale Conosco" envia cópia para `eduardo@omsdesenvolvimento.com.br` (fornecedor externo). Se não for mais necessário, remover o segundo destinatário no Elementor. Se for, formalizar contrato de operador.
+- ✅ O "Fale Conosco" enviava cópia para um fornecedor externo (OMS Desenvolvimento); o segundo destinatário foi removido em 23/10/2026. As mensagens vão apenas para contato@grupofedcorp.com.br.
 - ⬜ Mapear dados tratados fora do site (planilhas, CRM, WhatsApp) e eliminar o que não tem finalidade.
 
 ## 6. Scripts de rastreamento
