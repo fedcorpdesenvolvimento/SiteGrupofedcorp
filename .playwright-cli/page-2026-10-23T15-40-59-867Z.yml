@@ -1,0 +1,224 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://grupofedcorp.com.br
+        - img "invertida" [ref=e9]
+      - generic [ref=e10]:
+        - navigation "Menu" [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: https://grupofedcorp.com.br/
+            - listitem [ref=e16]:
+              - link "O Grupo" [ref=e17] [cursor=pointer]:
+                - /url: https://grupofedcorp.com.br/o-grupo/
+            - listitem [ref=e18]:
+              - link "Produtos" [ref=e19] [cursor=pointer]:
+                - /url: https://grupofedcorp.com.br/produtos/
+            - listitem [ref=e20]:
+              - link "Fale Conosco" [ref=e21] [cursor=pointer]:
+                - /url: https://grupofedcorp.com.br/fale-conosco/
+        - link "Área restrita" [ref=e23] [cursor=pointer]:
+          - /url: https://grupofedcorp.com.br/produtos/
+        - link "Nossos telefones" [ref=e30] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e36]:
+    - generic [ref=e38]:
+      - heading "Seguros, Serviços e Tecnologia" [level=2] [ref=e40]
+      - heading "Credibilidade, criatividade e inovação são as principais características do Grupo Fedcorp" [level=2] [ref=e42]: Credibilidade, criatividade e inovaçãosão as principais características do Grupo Fedcorp
+      - button "Ativar som do vídeo" [ref=e46] [cursor=pointer]:
+        - generic: Ativar som
+    - generic [ref=e53]:
+      - heading "Transforme sua carteira de clientes em uma nova fonte de receita para a sua administradora." [level=2] [ref=e57]:
+        - generic [ref=e58]: Transforme sua carteira de clientes
+        - generic [ref=e60]: em uma nova fonte de receita para a sua administradora.
+      - paragraph [ref=e64]: Com as soluções em seguros, serviços e tecnologia da FedCorp, você oferece mais valor aos seus condôminos, inquilinos e proprietários, gerando receita de forma simples e automática.
+    - generic [ref=e66]:
+      - generic [ref=e68]:
+        - heading "Condições Comerciais Imbatíveis" [level=3] [ref=e76]
+        - generic [ref=e79]:
+          - heading "Condições comerciais" [level=3] [ref=e80]
+          - generic [ref=e81]: Nossa condições comerciais são excepcionais e imbatíveis, pois representamos a produção individual de seguros e serviços de todas as Administradoras parceiras em todo o Brasil. Uma parceria que impacta diretamente seu faturamento mensal.
+      - generic [ref=e83]:
+        - heading "Integração Total com seu Sistema" [level=3] [ref=e91]
+        - generic [ref=e94]:
+          - heading "Tecnologia que Simplifica" [level=3] [ref=e95]
+          - generic [ref=e96]: Automação de processos através de nossas plataformas digitais, integração com os principais sistemas de gestão do mercado e equipe de TI para dar todo suporte necessário.
+      - generic [ref=e98]:
+        - heading "Suporte Dedicado que Entende seu Negócio" [level=3] [ref=e106]
+        - generic [ref=e109]:
+          - heading "Suporte de Especialistas" [level=3] [ref=e110]
+          - generic [ref=e111]: Conte com uma equipe de especialistas, por segmento de atuação, para te auxiliar em todas as etapas, do treinamento da sua equipe ao suporte diário, estamos ao seu lado.
+      - generic [ref=e113]:
+        - heading "Nova Fonte de Receita" [level=3] [ref=e121]
+        - generic [ref=e124]:
+          - heading "Gestão Descomplicada" [level=3] [ref=e125]
+          - generic [ref=e126]: Monetize sua carteira de clientes, oferecendo nossos seguros e serviços.
+    - link "QUERO AUMENTAR MINHA RECEITA" [ref=e130] [cursor=pointer]:
+      - /url: https://wa.me/552125166001
+    - generic [ref=e134]:
+      - heading "Portifólio de produtos" [level=2] [ref=e138]:
+        - generic [ref=e139]: Portifólio
+        - generic [ref=e142]: de produtos
+      - paragraph [ref=e146]: Nosso compromisso é oferecer um portifólio completo de soluções desenhadas para atender às necessidades específicas do mercado imobiliário e corporativo, garantindo eficiência, segurança e benefícios para seus clientes. Descubra como podemos agregar valor em cada segmento.
+    - generic [ref=e151]:
+      - tablist [ref=e152]:
+        - tab "Plataforma de Seguros e Assistências 24h" [expanded] [ref=e153] [cursor=pointer]
+        - tab "Fianças Locatícias" [ref=e156] [cursor=pointer]
+        - tab "Vistorias Locatícias e Prediais" [ref=e159] [cursor=pointer]
+        - tab "Análise Cadastral" [ref=e162] [cursor=pointer]
+        - tab "Medicina e Segurança do Trabalho" [ref=e165] [cursor=pointer]
+        - tab "Benefícios (Clube de Vantagens)" [ref=e168] [cursor=pointer]
+        - tab "Marketplace de Produtos" [ref=e171] [cursor=pointer]
+      - tabpanel [ref=e175]:
+        - generic [ref=e181]:
+          - 'heading "Proteção Integral e Conveniência: A Plataforma de Seguros e Assistências que Valoriza seu Cliente" [level=2] [ref=e183]'
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: Nossa plataforma digital foi desenvolvida para ser o ecossistema de proteção mais completo e intuitivo para o mercado imobiliário. Entendemos que a tranquilidade dos seus clientes é um pilar para a fidelização, e por isso centralizamos em um único ambiente uma gama robusta de seguros essenciais, como o Seguro Conteúdo, Seguro Incêndio e Responsabilidade Civil, todos adaptáveis às necessidades específicas de cada imóvel, seja residencial ou comercial. A contratação é simplificada, eliminando burocracias e permitindo a emissão de apólices em poucos cliques.
+            - paragraph [ref=e186]
+            - paragraph [ref=e187]: O grande diferencial, no entanto, está no valor agregado das nossas Assistências 24h. Mais do que uma apólice, oferecemos uma solução para os imprevistos do dia a dia. Desde serviços emergenciais de chaveiro, eletricista e encanador, até suporte especializado para reparos em eletrodomésticos, garantimos que seu cliente tenha a quem recorrer a qualquer momento. Para sua administradora, isso se traduz em uma poderosa ferramenta de retenção e em uma nova e consistente fonte de receita, transformando um serviço essencial em um ativo estratégico para o seu negócio.
+    - generic [ref=e192]:
+      - heading "A Solidez e a Confiança de quem é Referência no Mercado" [level=2] [ref=e195]:
+        - generic [ref=e196]: A Solidez e a Confiança
+        - generic [ref=e198]: de quem é Referência no Mercado
+      - paragraph [ref=e201]: Com mais de 30 anos de história e presença em todo o território nacional, o Grupo FedCorp é pioneiro e líder em soluções de seguros, serviços e tecnologia para o segmento imobiliário. Junte-se a centenas de administradoras parceiras que já estão colhendo os frutos de uma parceria de sucesso.
+      - heading "Pronto para elevar o potencial da sua administradora?" [level=2] [ref=e203]
+      - paragraph [ref=e205]: Fale agora com um de nossos consultores e descubra o plano de parceria ideal para o seu negócio. O caminho para aumentar sua receita e otimizar sua gestão começa aqui.
+      - link "QUERO SER UM PARCEIRO" [ref=e207] [cursor=pointer]:
+        - /url: https://wa.me/552125166001
+    - region [ref=e214]:
+      - generic [ref=e215]:
+        - generic [ref=e216]: Parceiros
+        - heading "Seguradoras parceiras" [level=2] [ref=e217]
+        - paragraph [ref=e218]: Trabalhamos com as principais seguradoras do país para oferecer a melhor solução para sua administradora e seus condomínios.
+      - generic [ref=e220]:
+        - list [ref=e221]:
+          - listitem [ref=e222]:
+            - img "Porto Seguro"
+          - listitem [ref=e223]:
+            - img "Allianz Brasil"
+          - listitem [ref=e224]:
+            - img "Bradesco Seguros"
+          - listitem [ref=e225]:
+            - img "Pottencial Seguradora"
+          - listitem [ref=e226]:
+            - img "HDI Seguros"
+          - listitem [ref=e227]:
+            - img "Chubb Seguros"
+          - listitem [ref=e228]:
+            - img "AXA Seguros"
+          - listitem [ref=e229]:
+            - img "Brasilcap"
+          - listitem [ref=e230]:
+            - img "Tokio Marine"
+          - listitem [ref=e231]:
+            - img "Too Seguros"
+          - listitem [ref=e232]:
+            - img "Suhai Seguradora"
+          - listitem [ref=e233]:
+            - img "Amil"
+          - listitem [ref=e234]:
+            - img "Yelum Seguros"
+          - listitem [ref=e235]:
+            - img "Azul Seguros"
+          - listitem [ref=e236]:
+            - img "Mapfre Seguros"
+        - list [aria-hidden] [ref=e237]:
+          - listitem [ref=e238]
+          - listitem [ref=e239]
+          - listitem [ref=e240]
+          - listitem [ref=e241]
+          - listitem [ref=e242]
+          - listitem [ref=e243]
+          - listitem [ref=e244]
+          - listitem [ref=e245]
+          - listitem [ref=e246]
+          - listitem [ref=e247]
+          - listitem [ref=e248]
+          - listitem [ref=e249]
+          - listitem [ref=e250]
+          - listitem [ref=e251]
+          - listitem [ref=e252]
+  - contentinfo [ref=e253]:
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - link [ref=e258] [cursor=pointer]:
+          - /url: https://grupofedcorp.com.br
+        - paragraph [ref=e260]:
+          - text: Hoje, o Grupo FedCorp, presente em todo território nacional através de suas empresas, se especializou no desenvolvimento e representação de produtos e serviços para o setor
+          - strong [ref=e261]: IMOBILIÁRIO
+          - text: ","
+          - strong [ref=e262]: CORPORATIVO
+          - text: e de
+          - strong [ref=e263]: BENEFÍCIOS
+      - generic [ref=e264]:
+        - heading "Rio de Janeiro" [level=2] [ref=e266]
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - link "(21) 2516-6001" [ref=e270] [cursor=pointer]:
+              - /url: tel:2125166001
+          - listitem [ref=e275]:
+            - link "sac@grupofedcorp.com.br" [ref=e276] [cursor=pointer]:
+              - /url: mailto:sac@grupofedcorp.com.br
+          - listitem [ref=e281]:
+            - link "Rua da Alfândega, 108, 7º andar - Centro - Rio de Janeiro/RJ" [ref=e282] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/K85Xsd2UHqEj5kKWA
+      - generic [ref=e287]:
+        - heading "São Paulo" [level=2] [ref=e289]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "(11) 4117-9979" [ref=e293] [cursor=pointer]:
+              - /url: tel:1141179979
+          - listitem [ref=e298]:
+            - link "sacsp@grupofedcorp.com.br" [ref=e299] [cursor=pointer]:
+              - /url: mailto:sacsp@grupofedcorp.com.br
+          - listitem [ref=e304]:
+            - link "Rua Coronel Oscar Porto, 800 - Vila Mariana - São Paulo/SP" [ref=e305] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/aP9N4d2BdHYEatGp6
+      - generic [ref=e310]:
+        - heading "Redes Sociais" [level=2] [ref=e312]
+        - list [ref=e314]:
+          - listitem [ref=e315]:
+            - link "Facebook" [ref=e316] [cursor=pointer]:
+              - /url: https://www.facebook.com/GrupoFedcorp
+          - listitem [ref=e320]:
+            - link "Instagram" [ref=e321] [cursor=pointer]:
+              - /url: https://www.instagram.com/grupofedcorp/
+          - listitem [ref=e325]:
+            - link "X-twitter" [ref=e326] [cursor=pointer]:
+              - /url: https://x.com/fedcorp
+    - generic [ref=e331]:
+      - paragraph [ref=e333]: © 2025 Grupo Fedcorp
+      - paragraph [ref=e335]:
+        - text: Criado por
+        - link [ref=e337] [cursor=pointer]:
+          - /url: https://omsdesenvolvimento.com.br
+          - strong [ref=e338]: OMS Desenvolvimento
+  - button "Contato do WhatsApp" [ref=e339] [cursor=pointer]
+  - generic [ref=e340]: desktop
+  - navigation "Atalhos de serviços" [ref=e341]:
+    - list [ref=e342]:
+      - listitem [ref=e343]:
+        - link "Início" [ref=e344] [cursor=pointer]:
+          - /url: https://grupofedcorp.com.br/
+      - listitem [ref=e349]:
+        - link "Área Restrita" [ref=e350] [cursor=pointer]:
+          - /url: https://grupofedcorp.com.br/area-restrita/
+      - listitem [ref=e356]:
+        - link "Plataforma de Incêndio Locação (abre em nova aba)" [ref=e357] [cursor=pointer]:
+          - /url: https://incendiofedcorp.com.br/login
+      - listitem [ref=e361]:
+        - link "Plataforma Comercial (abre em nova aba)" [ref=e362] [cursor=pointer]:
+          - /url: https://fedcorp.store/login
+      - listitem [ref=e368]:
+        - link "Multicálculo de Condomínio (abre em nova aba)" [ref=e369] [cursor=pointer]:
+          - /url: https://multicalculofedcorp.com.br/
+      - listitem [ref=e374]:
+        - link "Cálculo de Seguro Fiança (abre em nova aba)" [ref=e375] [cursor=pointer]:
+          - /url: https://plataforma.web.segimob.com/auth/login/E04BC0B1-109E-495F-893E-0F3AD5AF2D16
+      - listitem [ref=e383]:
+        - link "Sinistros Fedcorp (abre em nova aba)" [ref=e384] [cursor=pointer]:
+          - /url: https://sinistro.grupofedcorp.com.br/#login
