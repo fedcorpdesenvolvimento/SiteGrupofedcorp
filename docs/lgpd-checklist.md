@@ -53,7 +53,8 @@ Legenda: ✅ feito no site · 🔶 feito, depende de preenchimento/decisão da e
 - ⬜ Nomear formalmente o Encarregado (art. 41) e publicar contato (feito no site via config).
 - ⬜ Registro das operações de tratamento (art. 37) – inventário de dados por processo.
 - ⬜ Contratos com operadores: R4C (hospedagem), Google, OMS Desenvolvimento, seguradoras/parceiros; cláusulas de proteção de dados.
-- ⬜ Plano de resposta a incidentes (art. 48) e política interna de segurança/senhas; trocar as senhas compartilhadas durante o projeto.
+- ⬜ Plano de resposta a incidentes (art. 48) e política interna de segurança/senhas.
+- ⬜ **Troca de senhas (recomendação registrada em 23/10/2026; a troca será feita manualmente pelo Alberto, no momento que ele definir):** FTP da R4C (`gfcorpalberto`), Acesso Restrito do Apache (`alberto`), administrador do WordPress (`admin`, sugerido criar usuário nominal e remover o `admin`) e SFTP (`gfed_alberto`, se existir). Motivo: essas senhas circularam na conversa de implantação.
 - ⬜ Treinamento da equipe de atendimento sobre pedidos de titulares.
 
 ## 12. Redução de riscos jurídicos
