@@ -14,13 +14,13 @@ function fedcorp_lgpd_dados() {
 	$dados = array(
 		'razao_social'     => 'Grupo Fedcorp',                 // PREENCHER: razão social completa (ex.: Fedcorp Corretora de Seguros Ltda.)
 		'nome_fantasia'    => 'Grupo Fedcorp',
-		'cnpj'             => '[PREENCHER CNPJ]',              // PREENCHER
+		'cnpj'             => '35.315.360/0001-67',
 		'endereco'         => 'Rua da Alfândega, 108, 7º andar, Centro, Rio de Janeiro/RJ',
 		'endereco_sp'      => 'Rua Coronel Oscar Porto, 800, Vila Mariana, São Paulo/SP',
 		'telefone'         => '(21) 2516-6001',
 		'email_contato'    => 'sac@grupofedcorp.com.br',
-		'dpo_nome'         => 'Encarregado de Proteção de Dados (DPO)', // PREENCHER: nome da pessoa encarregada (art. 41 da LGPD)
-		'dpo_email'        => 'sac@grupofedcorp.com.br',       // PREENCHER: recomenda-se um e-mail dedicado, ex.: privacidade@grupofedcorp.com.br
+		'dpo_nome'         => 'Alberto Cordeiro de Araujo',
+		'dpo_email'        => 'alberto@grupofedcorp.com.br',
 		'site'             => 'grupofedcorp.com.br',
 		'atualizacao'      => '23/10/2026',                    // data da última revisão das políticas
 		'versao_termos'    => '1.0',                           // ao mudar, usuários logados precisam aceitar de novo
