@@ -32,3 +32,6 @@ wp-content/plugins/crocoblock-activator/
 wp-content/plugins/unlimited-elements-for-elementor-premium/
 wp-content/plugins/duplicator-pro/
 wp-content/plugins/wpcode-premium/
+
+# Ferramentas de teste
+.playwright-cli/
