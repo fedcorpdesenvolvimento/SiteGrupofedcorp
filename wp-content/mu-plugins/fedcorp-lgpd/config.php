@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function fedcorp_lgpd_dados() {
 	$dados = array(
-		'razao_social'     => 'Grupo Fedcorp',                 // PREENCHER: razão social completa (ex.: Fedcorp Corretora de Seguros Ltda.)
+		'razao_social'     => 'Fedcorp Administradora de Benefícios Ltda.',
 		'nome_fantasia'    => 'Grupo Fedcorp',
 		'cnpj'             => '35.315.360/0001-67',
 		'endereco'         => 'Rua da Alfândega, 108, 7º andar, Centro, Rio de Janeiro/RJ',
