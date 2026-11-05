@@ -1,0 +1,62 @@
+name: Publicar no servidor (R4C)
+
+# Dispara a cada push em main (ou manualmente em Actions > Run workflow).
+# Envia por FTPS apenas os arquivos que mudaram desde o último deploy feito por esta Action.
+# Nunca apaga nada que não tenha sido enviado por ela (wp-config.php, núcleo, plugins pagos ficam intactos).
+#
+# Para ativar: GitHub > Settings > Secrets and variables > Actions > New repository secret
+#   Nome: FTP_PASSWORD   Valor: senha do usuário FTP gfcorpalberto
+# Sem o segredo, o fluxo é ignorado (não falha).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-producao
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Enviar arquivos por FTPS
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TEM_SEGREDO: ${{ secrets.FTP_PASSWORD != '' }}
+    steps:
+      - name: Segredo ausente
+        if: env.TEM_SEGREDO != 'true'
+        run: echo "::warning::Segredo FTP_PASSWORD não cadastrado. Deploy ignorado."
+
+      - name: Baixar código
+        if: env.TEM_SEGREDO == 'true'
+        uses: actions/checkout@v4
+
+      - name: Enviar para o servidor
+        if: env.TEM_SEGREDO == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: 177.87.83.39
+          port: 21
+          protocol: ftps
+          security: loose
+          username: gfcorpalberto
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./
+          server-dir: web/
+          state-name: .ftp-deploy-sync-state.json
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            .playwright-cli/**
+            deploy/**
+            docs/**
+            README.md
+            wp-content/mu-plugins/fedcorp-parceiros/logos/*.png
+            wp-content/mu-plugins/fedcorp-parceiros/logos/*.jpg
+            wp-content/mu-plugins/fedcorp-parceiros/logos/*-OIP.webp
+            wp-content/mu-plugins/fedcorp-parceiros/logos/logo-porto-seguro-1536.webp
+            wp-content/mu-plugins/fedcorp-parceiros/logos/tokio marine-OIP.webp
